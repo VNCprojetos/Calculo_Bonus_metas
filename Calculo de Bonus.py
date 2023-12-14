@@ -5,6 +5,7 @@ vendas_loja = 200000
 nota = 9
 
 # A NOTA SENDO MAIOR QUE 9 TAMBÉM GERA BONUS, não é acumulativo com o bonus de meta atingida.
+# SE O FUNCIONARIO ALCANÇOU A META ESTIPULADA NÃO É NECESSÁRIO DA NOTA!    
 
 if vendas_funcionario > meta_funcionario and vendas_loja > meta_loja:
     bonus = 0.3 * vendas_funcionario
